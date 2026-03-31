@@ -1,2 +1,4 @@
 D:/Desktop/区块链/代码+数据+思路/data/Elliptic/elliptic_txs_features.csv filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
+data/Elliptic/*.csv filter=lfs diff=lfs merge=lfs -text
+group03/data[[:space:]]+[[:space:]]code/data/Elliptic/*.csv filter=lfs diff=lfs merge=lfs -text
