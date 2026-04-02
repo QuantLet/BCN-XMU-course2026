@@ -1,0 +1,2 @@
+strategy,sharpe_ratio,max_drawdown,total_return,avg_daily_return,std_daily_return
+LogisticRegression_L1,1.0113010089176788,-0.29347339398932704,1.882276232439946,0.001447298441586043,0.022718409547081028
