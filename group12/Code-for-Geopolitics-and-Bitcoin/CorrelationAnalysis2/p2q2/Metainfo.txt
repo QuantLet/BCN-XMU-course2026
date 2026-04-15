@@ -1,0 +1,27 @@
+Name of Quantlet: WaveletDetection_p2q2
+
+Published in: Class BCN-XMU-course2026、
+
+Reference: Wavelet Detection for Multiple Change Points in Nonparametric Regression, Zhejiang University, 2021.(Master's thesis)
+
+Description: This file adaptively detects change points in crude oil price. Assume that the number of conditional mean change points is 2 and the number of conditional variance change points is 2.
+
+Keywords: Nonparametric Regression; Multiple Change Points; Wavelet Detection; Genetic Algorithm; Multi-stage Iteration.
+
+Author: Hou Chongcong
+
+Submitted: Wednesday, April 15, 2026
+
+Code _Files: WaveletDetection_p2q2.m
+
+Input Files: RWTCd.csv
+
+Output Files: Mean_pos.png ; Mean_size.png ; Volatility_pos.png ; volatility_size.png
+
+Programming_ Language: Matlab
+
+Quantlet_Class: Blockchains, Crypto Currencies, Network Analytics
+
+Quantlet_Type: Correlation Analysis, Visualization
+
+Version: 1.0
