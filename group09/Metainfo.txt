@@ -1,0 +1,13 @@
+Name of Project: Centrality Analysis of Cryptocurrency Transaction Networks Based on the Elliptic Dataset
+
+Published in:     Blockchains, Crypto Currencies, Network Analytics (BCN-XMU-course2026)
+
+Description:      'Using the 2023 Elliptic dataset, this project applies centrality analysis to identify key nodes in cryptocurrency transaction networks and compare structural differences between illicit and legitimate addresses.'
+
+Submitted:        14. APR 2026, Jinshan Xu
+
+Keywords:         Centrality Analysis, Cryptocurrency Transaction Network, Elliptic Dataset
+
+Author:           Zhenyu Yang, Jinshan Xu, Longchen Sima, Qiuyue Jin, Jialin Chen
+
+
