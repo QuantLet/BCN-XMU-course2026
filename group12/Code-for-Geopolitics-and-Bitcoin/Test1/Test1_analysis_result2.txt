@@ -1,0 +1,93 @@
+
+Note: Break point (46083) is not within the current data range
+Will use the last date in the data as the break point
+Using last date as break point: 2608
+Actual break point used: 2084
+
+================================================================================
+Period Division
+================================================================================
+Normal period: 2000 observations
+Post-Iran conflict: 500 observations
+
+================================================================================
+Period-wise Regression: Oil Price → Liquidity (DXY)
+================================================================================
+
+Period: NORMAL (n=2000)
+  Oil price coefficient: 0.116054
+  p-value: 0.000000
+  R²: 0.1912
+  Conclusion: ✓ Rising oil prices significantly lead to liquidity tightening
+
+Period: POST_IRAN (n=500)
+  Oil price coefficient: 0.296492
+  p-value: 0.000000
+  R²: 0.4475
+  Conclusion: ✓ Rising oil prices significantly lead to liquidity tightening
+
+================================================================================
+Chow Break Point Test
+================================================================================
+
+Break point: 2084 (US attack on Iran)
+  F-statistic: 169.4277
+  p-value: 0.000000
+  ✓ Significant structural break point detected
+
+================================================================================
+Interaction Term Model: Testing Whether Oil Price Effect Enhances After Conflict
+================================================================================
+
+Interaction Term Model Results:
+--------------------------------------------------
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              liquidity   R-squared:                       0.317
+Model:                            OLS   Adj. R-squared:                  0.316
+Method:                 Least Squares   F-statistic:                     385.9
+Date:                Wed, 15 Apr 2026   Prob (F-statistic):          6.42e-206
+Time:                        21:34:05   Log-Likelihood:                -7106.9
+No. Observations:                2500   AIC:                         1.422e+04
+Df Residuals:                    2496   BIC:                         1.425e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         90.3258      0.327    276.540      0.000      89.685      90.966
+oil_price      0.1161      0.005     23.296      0.000       0.106       0.126
+post_iran     -9.0420      1.673     -5.405      0.000     -12.322      -5.762
+oil_x_iran     0.1804      0.024      7.579      0.000       0.134       0.227
+==============================================================================
+Omnibus:                       21.501   Durbin-Watson:                   0.016
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               21.709
+Skew:                           0.217   Prob(JB):                     1.93e-05
+Kurtosis:                       2.860   Cond. No.                     1.38e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.38e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Key Results Interpretation:
+Normal period oil price effect: 0.116054
+Additional effect after Iran conflict: 0.180438
+Interaction term p-value: 0.000000
+✓ Interaction term is significant, indicating that the impact of oil prices on liquidity significantly increased after the Iran conflict
+Total effect after conflict = 0.296492
+
+================================================================================
+Rolling Window Regression: Oil Price Coefficient Over Time
+================================================================================
+Rolling Window Coefficient Statistics:
+  Mean: 0.092279
+  Standard Deviation: 0.220708
+  Minimum: -0.432576
+  Maximum: 0.632379
+
+Average coefficient before Iran conflict: 0.059808
+Average coefficient after Iran conflict: 0.210775
+
+Change magnitude: 252.42%
