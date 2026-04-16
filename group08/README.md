@@ -1,0 +1,30 @@
+<div style="margin: 0; padding: 0; text-align: center; border: none;">
+<a href="https://quantlet.com" target="_blank" style="text-decoration: none; border: none;">
+<img src="https://github.com/StefanGam/test-repo/blob/main/quantlet_design.png?raw=true" alt="Header Image" width="100%" style="margin: 0; padding: 0; display: block; border: none;" />
+</a>
+</div>
+
+```
+Name of Quantlet: Research on Currency Volatility Forecasting Based on Machine Learning Models — A Case Study of Cryptocurrencies and Traditional Currencies
+
+Published in: Class BCN-XMU-course2026
+
+Description: This project investigates currency volatility forecasting using machine learning models, comparing cryptocurrencies (BTC, ETH) and traditional currencies (AUD, EUR, GBP) with hourly and daily data from December 2017 to March 2026. After conducting time-series tests (ADF, Ljung‑Box, ARCH), we evaluate single models (SVR, Random Forest, XGBoost) and hybrid models (GARCH combined with each ML model). The key findings show that the GARCH‑XGBoost hybrid significantly outperforms all single models, achieving the lowest prediction errors. The improvement is larger for traditional currencies than for cryptocurrencies, reflecting the more stable volatility patterns of fiat currencies. Cryptocurrencies exhibit much higher volatility, stronger leverage and clustering effects, and are harder to predict. Dynamic conditional correlation (DCC‑GARCH) and network analysis reveal time‑varying positive correlations between the two asset classes, with major shocks like the COVID‑19 pandemic substantially strengthening cross‑market risk linkages. Although long‑term risk isolation exists, extreme events increase interconnectedness, and post‑pandemic market boundaries are gradually blurring.
+
+Keywords: Cryptocurrency, Traditional currency, Currency volatility,SVR, Random Forest, XGBoost,GARCH-SVR, GARCH-RF, GARCH-XGBoost,DCC-GARCH,Network Topology,Python, Stata
+
+Author: Jiayi Wei,Yaling Yang,Kexin Yi,Qianhui Yin,Yawen Wang
+
+Code_Files: Feature_Analysis &Time_Series_Test.do, Prediction _Analysis.ipynb,DCC_GARCH.do,Dynamic Correlation and Network Topology Feature Analysis.ipynb
+
+Libraries: numpy, pandas, matplotlib, sklearn, xgboost, arch, warnings, networkx, scipy, os
+
+Programming_Language: Python,Stata
+
+Quantlet_Class: Blockchains, Crypto Currencies, Network Analytics
+
+Quantlet_Type: Analysis, Visualization,Prediction
+
+Version: 1.0
+
+```
