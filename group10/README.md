@@ -1,7 +1,7 @@
 # The Asymmetric Spillover Effects of Underlying Asset Volatility on NFT Liquidity
 
 ## 📖 Project Overview
-This repository contains the complete empirical data pipeline and analysis code for investigating the asymmetric spillover effects of Ethereum (ETH) volatility on Non-Fungible Token (NFT) liquidity. Utilizing high-frequency Binance data and large-scale Kaggle NFT transaction records, this project constructs an end-to-end econometric pipeline. It leverages Vector Autoregression (VAR) models and Jordà's Local Projections (LP) to identify the robust causal response of Blue-chip vs. Tail NFT collections to severe macroeconomic shocks.
+This repository contains the complete empirical data pipeline and analysis code for investigating the asymmetric spillover effects of Ethereum (ETH) volatility on Non-Fungible Token (NFT) liquidity. Utilizing high-frequency Binance data and large-scale Kaggle NFT transaction records, this project constructs an end-to-end econometric pipeline. It leverages Vector Autoregression (VAR) models and Jordà's Local Projections (LP) to estimate the asymmetric dynamic transmission of ETH volatility shocks to Blue-chip vs. Tail NFT market liquidity.
 
 ## 📊 Data Pipeline Architecture
 
