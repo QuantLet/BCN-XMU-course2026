@@ -1,4 +1,4 @@
-Name of QuantLet : The_Asymmetric_Spillover_Effects_of_Underlying_Asset_Volatility_on_NFT_Liquidity
+Name of QuantLet : The Asymmetric Spillover Effects of_Underlying Asset Volatility on NFT Liquidity
 
 Published in : Blockchain Technology and Cryptocurrencies (Humboldt-Universität zu Berlin)
 
