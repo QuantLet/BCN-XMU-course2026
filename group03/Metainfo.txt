@@ -1,0 +1,23 @@
+Name of Quantlet: Zero-Knowledge Proof based Blockchain Transaction Visualization with GNN Risk Prediction 
+
+Published in:     Class BCN-XMU-course2026
+
+Description:      This project has developed an interactive web application that demonstrates privacy-preserving blockchain transactions based on zero-knowledge proofs, and performs P2P visual network analysis on transaction data.  It also performs GNN-based risk prediction using real-world transaction datasets. This project aims to provide an intuitive demonstration of the privacy transaction process, network structure and model performance, whilst offering an interactive verification tool for blockchain privacy transactions and risk management.
+
+Keywords:         zero-knowledge proof, blockchain privacy transaction, P2P visual network, GNN risk prediction, model evaluation
+
+Author:           Shuwen Liu, Zongni Jiang, Xinyu Quan, Shanyou Dong
+
+Code_Files: Zero-Knowledge Proof based Blockchain Transaction Visualization with GNN Risk Prediction.py
+
+Output_Files: 1_interactive_web_homepage.png, 2_real_transaction_network_visualization.png, 3_GCN_results.png, 4_GAT_results.png
+
+Libraries: streamlit, hashlib, numpy, pandas, random, networkx, plotly, matplotlib, seaborn, os, requests, datetime, sklearn, torch, torch_geometric, warnings
+
+Programming_Language: Python
+
+Quantlet_Class: Blockchains, Crypto Currencies, Network Analytics
+
+Quantlet_Type: Analysis, Visualization
+
+Version: 1.0

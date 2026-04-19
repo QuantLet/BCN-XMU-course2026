@@ -1,0 +1,30 @@
+<div style="margin: 0; padding: 0; text-align: center; border: none;">
+<a href="https://quantlet.com" target="_blank" style="text-decoration: none; border: none;">
+<img src="https://github.com/StefanGam/test-repo/blob/main/quantlet_design.png?raw=true" alt="Header Image" width="100%" style="margin: 0; padding: 0; display: block; border: none;" />
+</a>
+</div>
+
+```
+Name of Quantlet: Analysis of Cryptocurrency Transaction Characteristics & Trend Prediction Based on Machine Learning
+
+Published in: Class BCN-XMU-course2026
+
+Description: With the maturation of blockchain technology and the rapid development of the cryptocurrency market, Bitcoin (BTC) and Ethereum (ETH) have become the most influential digital assets globally. This study, based on a total of 50,000 real transaction data from March to May 2025, systematically analyzed the transaction characteristics, user behavior patterns, and market trends of BTC and ETH. Through methods such as data cleaning, exploratory analysis, statistical modeling, and machine learning, it revealed the similarities and differences between the two cryptocurrencies in terms of transaction volume, transaction costs, and time distribution, and constructed models for transaction currency classification and transaction fee prediction. The research found that BTC and ETH have significant differences in transaction activity, fee structure, and user behavior, and the market shows short-term volatility and structural features. This study provides constructive policy recommendations for participants, investors, and regulatory authorities in the cryptocurrency market.
+
+Keywords: Cryptocurrency, Bitcoin, Ethereum, Trading behavior, Machine learning
+
+Author: Shiqi He, Xinbei Qi, Shuda Lv, Cunyu Zhang
+
+Code_Files: 【Code】Group7-Analysis of Cryptocurrency Transaction Characteristics & Trend Prediction Based on Machine Learning-何诗琪.ipyn
+
+Libraries: numpy, pandas, matplotlib, seaborn, geopandas, datetime, networkx, sklearn
+
+Programming_Language: Python
+
+Quantlet_Class: Blockchains, Crypto Currencies
+
+Quantlet_Type: Analysis, Visualization, Prediction
+
+Version: 1.0
+
+```

@@ -1,0 +1,24 @@
+Name of Quantlet: Default Risk Prediction Model of P2P Online Lending
+
+Published in: Class BCN-XMU-course2026
+
+Description:  This project presents a basic default risk framework designed for P2P online lending platforms to address the challenges of information asymmetry. Utilizing a dataset of 1.2 million loan records from 2019–2020, the study implemented an end-to-end pipeline featuring SMOTE for class imbalance and XGBoost for predictive modeling.
+By strictly removing post-loan features to prevent look-ahead bias, the study provided a realistic performance baseline, identifying XGBoost as the superior model with an AUC of 0.731. Feature importance analysis highlighted credit "grade" as the primary risk predictor, complemented by behavioral metrics such as debt-to-income (DTI) ratios. Additionally, K-Means clustering was utilized to segment borrower archetypes, enabling future dynamic risk tiering. This research establishes a promising, production-ready foundation for reducing platform default rates through advanced machine learning techniques.
+
+Keywords: P2P Lending, Default Risk Prediction, XGBoost, Credit Risk Assessment, SMOTE, Behavioral Analytics
+
+Author: Xiaoxuan Wang, Shuqing Ao, Shirui Du, Bin Gao
+
+Code_Files: RF_GBDT+LR_XGBoost_SVM_K-Means-LC2020_GB20260330e.py
+
+Output_Files: class_balance_comparison.png, confusion_matrices.png, heatmap.png, kmeans_clusters.png, kmeans_elbow.png, missing_ratio_distribution.png, performance_comparison, rf_feature_importance.png, roc_curves.png, target_correlation.png, xgb_feature_importance.png, results.txt
+
+Libraries: numpy, pandas, matplotlib, seaborn, joblib, scikit-learn, imbalanced-learn, xgboost, xlrd
+
+Programming_Language: Python
+
+Quantlet_Class: Blockchains, Crypto Currencies, Network Analytics
+
+Quantlet_Type: Analysis, Visualization
+
+Version: 1.0

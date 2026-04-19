@@ -15,6 +15,20 @@ Keywords: cryptocurrency, non-ferrous metals, capital asset, portfolio, python
 
 Author: Yushen Qiu, Yukong Huang, Jintao Li, Zhengxu Shan
 
+Code_Files: A Cross Asset Portfolio Optimization Framework Based on Crypto Mental Synthesis.ipynb
+
+Output_Files: 1_output_15_0.png, 2_output_16_0.png, 3_output_18_0.png, 4_output_19_0.png, 5_output_20_0.png, 6_output_21_0.png, 7_output_22_0.png, 8_output_23_0.png, 9_output_29_1.png
+
+Libraries: numpy, pandas, matplotlib, seaborn, os, datetime, yfinance, openbb, sklearn, statsmodels.api
+
+Programming_Language: Python
+
+Quantlet_Class: Blockchains, Crypto Currencies, Network Analytics
+
+Quantlet_Type: Analysis, Visualization
+
+Version: 1.0
+
 ```
 <div align="center">
 <img src="https://raw.githubusercontent.com/QuantLet/BCN-XMU-course2026/main/group01/1_output_15_0.png" alt="Image" />

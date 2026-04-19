@@ -1,0 +1,34 @@
+# Elliptic++ AML Detection Project Dependencies
+# Generated for Python 3.9+
+
+# Core Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Graph Neural Networks
+# Note: Install PyTorch Geometric nightly for latest features
+# pip install pyg-nightly torch-geometric
+pyg-nightly>=2.3.0
+torch-geometric>=2.3.0
+
+# Tree-based Model
+lightgbm>=4.0.0
+
+# Machine Learning Utilities
+scikit-learn>=1.3.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Hyperparameter Optimization
+optuna>=3.2.0
+
+# Graph Analysis
+networkx>=3.1
+
+# Additional utilities
+tqdm>=4.65.0

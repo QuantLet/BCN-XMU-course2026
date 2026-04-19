@@ -1,0 +1,10 @@
+Name of Quantlet: Mechanism_Analysis_BTC_DXY
+Published in: Digital Assets and Geopolitical Risk Research Project 2026
+Description: This Quantlet analyzes the dynamic relationship between Bitcoin and the U.S. Dollar Index (DXY) during geopolitical shocks. It employs Pelt change point detection to identify mechanism shifts and utilizes an LSTM neural network combined with SHAP values to quantify non-linear feature attribution. The research demonstrates how Bitcoin's pricing logic transitions from a liquidity-driven asset to a desensitized "digital gold" proxy during extreme market stress.
+Keywords: Bitcoin, DXY, Geopolitical Risk, LSTM-SHAP, Change Point Detection, Mechanism Analysis, Digital Gold
+Author: Cong Peng
+Submitted: Wednesday, April 15, 2026
+Data Source: Daily historical price data for BTC-USD and DX-Y.NYB retrieved from Yahoo Finance via the yfinance API.
+Input: Logarithmic returns of Bitcoin (BTC_Ret) and the U.S. Dollar Index (DXY_Ret) aligned through an inner join to synchronize global trading days.
+Output: Statistical correlation coefficients, Pelt detection inflection points, LSTM model performance metrics, and SHAP summary plots quantifying feature importance.
+Example: A comparison of SHAP values before and after the March 2026 shock, showing a 17.60% decrease in the DXY's non-linear contribution to Bitcoin's price volatility despite increased market turbulence.

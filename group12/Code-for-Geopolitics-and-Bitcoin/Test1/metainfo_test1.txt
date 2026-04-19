@@ -1,0 +1,25 @@
+Name of Quantlet: Oil Price-Global Liquidity Transmission Mechanism
+
+Published in: Class BCN-XMU-course2026
+
+Discription: This project investigates the transmission mechanism from oil prices to risk assets through global liquidity, using mediation analysis and structural break tests. The study examines how geopolitical conflicts (US-Iran conflict on March 2, 2026) amplify the oil-liquidity relationship. The analysis includes OLS regression, mediation effect testing (Sobel test), Chow break point test, interaction term modeling, rolling window regression, and comprehensive visualization.
+
+Keywords: oil price, global liquidity, geopolitical conflict, mediation analysis, structural break, regression analysis
+
+Author: Yanling Liu
+
+Code_Files: Test1.ipynb
+
+Output_Files: Test1_analysis_result1.txt, Test1_analysis_result2, mechanism_test1.png, structural_break_analysis.png
+
+Libraries: pandas, numpy, matplotlib, seaborn, sklearn, statsmodels, statsmodels, scipy, sys
+
+Programming_Language: Python
+
+Quantlet_Class: Time Series Analysis, Financial Econometrics, Structural Break Detection
+
+Quantlet_Type: Analysis, Visualization
+
+Version: 1.0
+
+Datafile: Test1_data.txt

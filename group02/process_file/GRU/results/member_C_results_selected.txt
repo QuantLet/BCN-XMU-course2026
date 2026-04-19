@@ -1,0 +1,9 @@
+成员 C 模型性能报告（特征筛选版，无数据泄露）
+--------------------------------------------------
+Selected Features: ['ret_1d', 'ret_3d', 'fees', 'fees_per_tx', 'active_addresses_change', 'volume_change', 'tx_count', 'ma_ratio_7_30']
+Best Config: {'seq_len': 10, 'hidden_size': 32, 'lr': 0.0005}
+Test Accuracy: 0.5113
+Test F1-Score: 0.0844
+Test AUC     : 0.5341
+Baseline Acc : 0.4932
+Final Strategy Return: 0.8979

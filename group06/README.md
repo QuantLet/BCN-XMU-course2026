@@ -1,0 +1,32 @@
+<div style="margin: 0; padding: 0; text-align: center; border: none;">
+<a href="https://quantlet.com" target="_blank" style="text-decoration: none; border: none;">
+<img src="https://github.com/StefanGam/test-repo/blob/main/quantlet_design.png?raw=true" alt="Header Image" width="100%" style="margin: 0; padding: 0; display: block; border: none;" />
+</a>
+</div>
+
+```
+Name of Quantlet: Analysis and Prediction of Cryptocurrency Price Volatility
+
+Published in: Class BCN-XMU-course2026
+
+Description: This project implements a full pipeline for Bitcoin (BTCUSDT) historical OHLCV data crawling, preprocessing, volatility feature engineering, and multi-model volatility prediction. It combines Random Forest machine learning and GARCH(1,1) time series model to build a weighted ensemble model for 7-day forward volatility forecasting. The framework includes data cleaning, outlier removal, technical indicator calculation (rolling volatility, ATR, Bollinger Bands), model training, performance evaluation, result export, and 8 sets of professional visualizations with transparent backgrounds, providing a complete quantitative analysis tool for crypto asset volatility research.
+
+Keywords: Bitcoin, cryptocurrency, volatility prediction, Random Forest, GARCH, ensemble model, OHLCV, time series, quantitative analysis
+
+Author: Yunqing Yu, Yarong Li, Zhishan Guo
+
+Code_Files: Scrape_dataOHLCV.py, Bitcoin_Volatility_Prediction_Research.py,Bitcoin_Volatility_Prediction_Research .ipynb
+
+Output_Files: BTC_OHLCV_2020_20260327.csv, BTC_OHLCV_2020_20260327.xlsx, BTC_7Day_Volatility_Prediction.xlsx, BTC_Model_Performance.xlsx, Chart_1_BTC_Closing_Price_Bollinger_Bands.png, Chart_2_Log_Return_Distribution.png, Chart_3_Historical_Rolling_Volatility.png, Chart_4_Average_True_Range.png, Chart_5_RF_vs_Actual.png, Chart_6_GARCH_vs_Actual.png, Chart_7_Ensemble_vs_Actual.png, Chart_8_7Day_Future_Prediction.png
+
+Libraries: requests, pandas, numpy, matplotlib, time, warnings, sklearn, arch, openpyxl
+
+Programming_Language: Python
+
+Quantlet_Class: Blockchains, Crypto Currencies, Quantitative Finance, Time Series Analysis
+
+Quantlet_Type: Data Crawling, Preprocessing, Modeling, Prediction, Visualization
+
+Version: 1.0
+
+```
