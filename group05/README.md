@@ -9,7 +9,7 @@ Name of Quantlet: Default Risk Prediction Model of P2P Online Lending
 
 Published in: Class BCN-XMU-course2026
 
-Description: This project presents a basic default risk framework designed for P2P online lending platforms to address the challenges of information asymmetry. Utilizing a dataset of 1.2 million loan records from 2019–2020, the study implemented an end-to-end pipeline featuring SMOTE for class imbalance and XGBoost for predictive modeling.
+Description: This project presents a basic default risk framework designed for P2P online lending platforms to address the challenges of information asymmetry. Utilizing a dataset of 1.2 million loan records from 2019–2020, the study implemented an end-to-end pipeline featuring SMOTE for class imbalance and XGBoost for predictive modeling. By strictly removing post-loan features to prevent look-ahead bias, the study provided a realistic performance baseline, identifying XGBoost as the superior model with an AUC of 0.731. Feature importance analysis highlighted credit "grade" as the primary risk predictor, complemented by behavioral metrics such as debt-to-income (DTI) ratios. Additionally, K-Means clustering was utilized to segment borrower archetypes, enabling future dynamic risk tiering. This research establishes a promising, production-ready foundation for reducing platform default rates through advanced machine learning techniques.
 
 Keywords: P2P Lending, Default Risk Prediction, XGBoost, Credit Risk Assessment, SMOTE, Behavioral Analytics
 
